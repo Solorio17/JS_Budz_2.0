@@ -1,18 +1,44 @@
 <% include ../views/partials/header.ejs %>
-   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
+   <nav class="navbar navbar-expand-md" style="background-color: #165b0b;">
+      <a class="navbar-brand">J'S Budz</a>
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="/inventory">Inventory</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Disabled</a>
+            <a class="nav-link" href="/ourteam">Our Team</a>
           </li>
         </ul>
       </div>
     </nav>
+    <div class="jumbotron">
+     <div class="container">
+         <h1 class="display-3">J'S Budz</h1>
+         <p>This is the best dispensary in the whole united states</p>
+         <img src="http://rotter.net/User_files/forum/582c50204bb7be2c1.jpg" width="1000" height="300">
+         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+     </div>
+   </div>
+   <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Popular</h2>
+          <p>Donec  </p>
+          <p><a class="btn btn-danger" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Join Our Team</h2>
+          <p>Donec  </p>
+          <p><a class="btn btn-danger" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Special Deals</h2>
+          <p>Donec </p>
+          <p><a class="btn btn-danger" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
 <% include ../views/partials/footer.ejs %>
