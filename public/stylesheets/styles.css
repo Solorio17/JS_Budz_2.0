@@ -1,3 +1,41 @@
-body{
-  background: black;
+#universalbody{
+  background-color: black;
+}
+
+.jumbotron{
+background-image: url("http://rotter.net/User_files/forum/582c50204bb7be2c1.jpg");
+height: 400px;
+}
+
+#mpagetext{
+  color: white;
+  text-align: center;
+}
+
+.budz{
+  border: 2px solid blue;
+}
+
+.container{
+  text-align: center;
+  color: white;
+}
+
+.container .headp {
+  color: white;
+}
+
+.invimg{
+  width: 292px;
+  height: 400px;
+  padding-top: 5px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+#mycon{
+  margin-left: 60px;
+  padding: 1px;
+  color: white;
+  text-align: center;
 }
