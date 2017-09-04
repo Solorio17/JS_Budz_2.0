@@ -1,3 +1,46 @@
 <% include ../views/partials/header.ejs %>
-<h1>THIS IS THE INVENTORY PAGE</h1>
+<nav class="navbar navbar-expand-md" style="background-color: #165b0b;">
+   <a class="navbar-brand">J'S Budz</a>
+   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+     <ul class="navbar-nav mr-auto">
+       <li class="nav-item active">
+         <a class="nav-link" href="/">Home</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="/inventory">Inventory</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="/ourteam">Our Team</a>
+       </li>
+     </ul>
+   </div>
+ </nav>
+ <div id="mycon" class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img id="fimg" class="invimg" src="https://i.pinimg.com/736x/47/9b/a2/479ba2bfb15f199cf74c61d4ea4e171b.jpg">
+        <h4>Our Budz</h4>
+        <p>Donec oroihrpirhpwhrpwhrph raoarasdsdasoih</p>
+        <p><a class="btn btn-danger" href="/inventory/budz" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-3">
+        <img class="invimg" src="https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2015/10/29195435/is-dabbing-good-or-bad-or-both.jpg">
+        <h4>Dabs & Concentrates</h4>
+        <p>Donec sdfrfohroihro wiorhwo iewhoihaworihwaorih </p>
+        <p><a class="btn btn-danger" href="/inventory/dabs" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-3">
+        <img class="invimg" src="https://www.coloradopotguide.com/ImageGen.ashx?image=/media/4362/edibles_edited.jpg&constrain=true&format=jpg&compression=75&width=400" >
+        <h4>Edibles</h4>
+        <p>Donec rwrorhwqroh oirwhoisd aawoirhawrohwao </p>
+        <p><a class="btn btn-danger" href="#" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-3">
+        <img class="invimg" src="https://s3.amazonaws.com/leafly/content/medibles-101-everything-youve-ever-wanted-to-know-about-edibles/KdChhPA6RPKq22Wt81U9_SneakPeek.png">
+        <h4>Infused Drinks</h4>
+        <p>Donec qewqerisfhaiosrhoihr rrwroiohroirh</p>
+        <p><a class="btn btn-danger" href="#" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+  </div>
 <% include ../views/partials/footer.ejs %>
