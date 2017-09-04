@@ -20,6 +20,18 @@ app.get("/inventory", (req, res, next) => {
   res.render("inventory");
 });
 
+app.get("/inventory/budz", (req, res, next) => {
+  res.render("inventorybudz");
+});
+
+app.get("/inventory/dabs", (req, res, next) => {
+  res.render("inventorydabs")
+});
+
+app.get("/ourteam", (req, res, next) => {
+  res.render("ourteam")
+});
+
 app.listen(port, () => {
   console.log("Server Listening on Port..."+port)
 })
